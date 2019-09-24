@@ -12,6 +12,7 @@
         <module>spring-cloud-eureka-server</module>
         <module>spring-cloud-eureka-user</module>
         <module>spring-cloud-eureka-order</module>
+        <module>spring-cloud-eureka-user-hystrix</module>
     </modules>
 
     <parent>
