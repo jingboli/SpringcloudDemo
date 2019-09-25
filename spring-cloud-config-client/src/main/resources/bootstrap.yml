@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-cloud-config-client
+  cloud:
+    config:
+      profile: prod
+      uri: http://localhost:8888
+server:
+  port: 8801

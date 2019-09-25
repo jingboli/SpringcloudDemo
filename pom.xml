@@ -16,6 +16,7 @@
         <module>spring-cloud-hystrix-dashboard</module>
         <module>spring-cloud-gateway-zuul</module>
         <module>spring-cloud-config-service</module>
+        <module>spring-cloud-config-client</module>
     </modules>
 
     <parent>
