@@ -1,0 +1,28 @@
+server:
+  port: 8050
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: spring-cloud-gateway-zuul
+
+
+zuul:
+  routes:
+    order-serviceId:
+      path: /order/**
+      service-id: spring-cloud-eureka-order
+    user-serviceId1:
+      path: /findOrderByUser/**
+      service-id: spring-cloud-eureka-user
+    user-serviceId2:
+      path: /findOrderByUser/**
+      service-id: spring-cloud-eureka-user-hystrix
+
+debug: true
