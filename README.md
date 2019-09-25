@@ -46,3 +46,8 @@
    *  http://localhost:8050/spring-cloud-eureka-user-hystrix/findOrderByUser/1
    *  http://localhost:8050/spring-cloud-eureka-user/findOrderByUser/1
 
+### Config
+* 作用： 配置服务
+* module: spring-cloud-config-service
+* 地址： http://localhost:8888/spring-cloud-config-service/dev
+* 地址： http://localhost:8888/application-dev.yml

@@ -15,6 +15,7 @@
         <module>spring-cloud-eureka-user-hystrix</module>
         <module>spring-cloud-hystrix-dashboard</module>
         <module>spring-cloud-gateway-zuul</module>
+        <module>spring-cloud-config-service</module>
     </modules>
 
     <parent>
